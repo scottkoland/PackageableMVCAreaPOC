@@ -1,0 +1,21 @@
+﻿@model string[]
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head><title>Area 51</title></head>
+    <body>
+        <div>
+            <ul>
+                @foreach (var alien in Model)
+                {
+                    <li>@alien</li>
+                }
+            </ul>
+        </div>
+    </body>
+</html>

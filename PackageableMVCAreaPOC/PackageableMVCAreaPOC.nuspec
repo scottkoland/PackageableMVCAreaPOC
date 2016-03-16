@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>PackageableMVCAreaPOC</id>
+		<version>1.0.2</version>
+		<title>PackageableMVCAreaPOC</title>
+		<authors>scottkoland</authors>
+		<description>I'm not saying it was aliens, but... it was aliens.</description>
+	</metadata>
+	<files>
+		<file src="bin/PackageableMVCAreaPOC.dll" target="lib/net45" />
+		<file src="Areas/Area51/Views/**/*.*" target="content" />
+	</files>
+</package>
